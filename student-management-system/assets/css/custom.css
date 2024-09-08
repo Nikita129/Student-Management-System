@@ -1,0 +1,170 @@
+/* Add student form css */
+
+.add-card {
+    max-width: 700px;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.add-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form input style */
+.add-card .form-group {
+    margin-bottom: 15px;
+}
+
+.add-card label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.add-card input[type="text"],
+.add-card input[type="email"],
+.add-card input[type="tel"],
+.add-card select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-card input[type="text"]:focus,
+.add-card input[type="email"]:focus,
+.add-card input[type="tel"]:focus,
+.add-card select:focus {
+    outline: none;
+    border-color: #6cb2eb;
+    box-shadow: 0 0 5px rgba(108, 178, 235, 0.5);
+}
+
+/* Submit button style */
+.btn-submit {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+#btn-upload-profile{
+    background-color: #0000ff61;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+}
+
+.add-card button:hover {
+    background-color: #45a049;
+}
+
+.alert-success{
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.alert-error{
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: red;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/*List students css*/
+
+.list-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.list-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table style */
+.table-container {
+    overflow-x: auto;
+    width: 100%; /* Adjust as needed */
+    padding: 10px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.student-table th,
+.student-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Button style */
+.btn-edit, .btn-delete, .btn-view {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 4px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 12px;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-view {
+    background-color: #007bff;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-view:hover {
+    opacity: 0.8;
+}
